@@ -42,22 +42,25 @@
     <link rel="stylesheet" href="css/framework7-bundle.min.css" />
     <title>Fall Readings</title>
   </head>
-  <body class="dark">
+  <body class="color-theme-green">
     <div id="app">
-      <!-- panel components go here -->
-
-      <div class="panel panel-right panel-cover">
-        ... panel content ...
-      </div>
-
+    <!-- additional "navbar-large" class -->
+        
       <div class="view view-main">
 
         <!-- component will apply to all pages in view -->
           <div class="page" data-name="home">
             <!-- component is fixed to the page -->
 
+            <div class="navbar">
+                <div class="navbar-bg"></div>
+                <div class="navbar-inner">
+                    <div class="title">Readings for the Fall</div>
+                </div>
+            </div>
+            
+
             <div class="page-content">
-                <h1>Readings for Fall</h1>
                 <a class="link" href="/podcasts/">
                 Podcasts
                 </a>
@@ -71,6 +74,7 @@
                 Music
                 </a>
             </div>
+
           </div>
         </div>
       </div>
