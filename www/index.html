@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="css/framework7-bundle.min.css" />
     <title>Fall Readings</title>
   </head>
-  <body>
+  <body class="dark">
     <div id="app">
       <!-- panel components go here -->
 
@@ -52,20 +52,24 @@
 
       <div class="view view-main">
 
-        <div class="navbar">
-            <div class="navbar-bg"></div>
-            <div class="navbar-inner">
-                <div class="title">Fall Readings</div>
-            </div>
-        </div>
-
         <!-- component will apply to all pages in view -->
           <div class="page" data-name="home">
             <!-- component is fixed to the page -->
 
             <div class="page-content">
-              
-              </div>
+                <h1>Readings for Fall</h1>
+                <a class="link" href="/podcasts/">
+                Podcasts
+                </a>
+                <a class="link" href="/movies/">
+                Movies
+                </a>
+                <a class="link" href="/books/">
+                Books
+                </a>
+                <a class="link" href="/music/">
+                Music
+                </a>
             </div>
           </div>
         </div>
@@ -74,5 +78,6 @@
     <script src="cordova.js"></script>
     <script src="js/framework7-bundle.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
