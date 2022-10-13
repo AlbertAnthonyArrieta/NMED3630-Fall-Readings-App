@@ -18,9 +18,10 @@
     under the License.
 -->
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <!--
         Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
             https://cordova.apache.org/docs/en/latest/
         Some notes:
@@ -28,60 +29,88 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"
-    />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta
-      name="viewport"
-      content="initial-scale=1, width=device-width, viewport-fit=cover"
-    />
-    <meta name="color-scheme" content="light dark" />
-    <link rel="stylesheet" href="css/framework7-bundle.min.css" />
-    <title>Fall Readings</title>
-  </head>
-  <body class="color-theme-green">
-    <div id="app">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="css/framework7-bundle.min.css" />
+  <title>Fall Readings</title>
+
+</head>
+
+<body class="color-theme-green">
+  <div id="app">
     <!-- additional "navbar-large" class -->
-        
-      <div class="view view-main">
+    
 
-        <!-- component will apply to all pages in view -->
-          <div class="page" data-name="home">
-            <!-- component is fixed to the page -->
+    <div class="view view-main">
 
-            <div class="navbar">
-                <div class="navbar-bg"></div>
-                <div class="navbar-inner">
-                    <div class="title">Readings for the Fall</div>
-                </div>
-            </div>
-            
-
-            <div class="page-content">
-                <a class="link" href="/podcasts/">
-                Podcasts
-                </a>
-                <a class="link" href="/movies/">
-                Movies
-                </a>
-                <a class="link" href="/books/">
-                Books
-                </a>
-                <a class="link" href="/music/">
-                Music
-                </a>
-            </div>
-
+      <!-- component will apply to all pages in view -->
+      <!-- additional "navbar-large" class -->
+      <div class="navbar navbar-large">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+          <div class="left">
+            <!-- ... -->
+          </div>
+          <!-- usual title will be visible when larger title collapsed -->
+          <div class="title">Fall Readings</div>
+          <div class="right">
+            <!-- ... -->
+          </div>
+          <!-- large title element -->
+          <div class="title-large">
+            <div class="title-large-text">Fall Readings</div>
           </div>
         </div>
       </div>
+      
+      <div class="page" data-name="home">
+        <!-- component is fixed to the page -->
+
+
+        
+        
+        <div class="card">
+          <div class="card-header">Header</div>
+          <div class="card-content card-content-padding">
+            <!-- Card content -->
+          </div>
+          <div class="card-footer">Footer</div>
+        </div>
+
+      </div>
+      <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+        <div class="toolbar-inner">
+          <a href="/podcasts/" class="tab-link">
+            <i class="icon demo-icon-1"></i>
+            <span class="tabbar-label">Podcasts</span>
+          </a>
+          <a href="/movies/" class="tab-link">
+            <i class="icon demo-icon-2"></i>
+            <span class="tabbar-label">Movies</span>
+          </a>
+          <a href="/Books/" class="tab-link">
+            <i class="icon demo-icon-1"></i>
+            <span class="tabbar-label">Books</span>
+          </a>
+          <a href="/Music/" class="tab-link">
+            <i class="icon demo-icon-2"></i>
+            <span class="tabbar-label">Music</span>
+          </a>
+        </div>
+      </div>
     </div>
-    <script src="cordova.js"></script>
-    <script src="js/framework7-bundle.min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+  </div>
+
+  </div>
+
+  <script src="cordova.js"></script>
+  <script src="js/framework7-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
