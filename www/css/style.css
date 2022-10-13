@@ -1,0 +1,40 @@
+.hpage {
+    margin-top: 100px;
+}
+
+#podCard {
+    background-image: url("../pics/podcast.jpg");
+    height: 120px;
+
+}
+
+#movCard {
+    background-image: url("../pics/movie.jpg");
+    background-position: 500px 170px;
+    height: 120px;
+}
+
+#musicCard {
+    background-image: url("../pics/music.jpg");
+    background-position: 600px 370px;
+    height: 120px;
+}
+
+#bookCard {
+    background-image: url("../pics/book.jpg");
+    background-position: 500px 370px;
+    height: 120px;
+}
+
+.darken-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    color: white;
+}

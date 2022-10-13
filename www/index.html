@@ -36,14 +36,15 @@
   <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
   <link rel="stylesheet" href="css/framework7-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <title>Fall Readings</title>
 
 </head>
 
-<body class="color-theme-green">
+<body class="color-theme-deeppurple dark">
   <div id="app">
     <!-- additional "navbar-large" class -->
-    
+
 
     <div class="view view-main">
 
@@ -66,41 +67,54 @@
           </div>
         </div>
       </div>
-      
-      <div class="page" data-name="home">
+
+      <div class="page hpage" data-name="home">
         <!-- component is fixed to the page -->
 
-
-        
-        
-        <div class="card">
-          <div class="card-header">Header</div>
-          <div class="card-content card-content-padding">
-            <!-- Card content -->
+        <a href="/podcasts/">
+          <div class="card demo-card-header-pic">
+            <div id="podCard" valign="bottom" class="card-header darken-img ">
+              <h2>Podcasts</h2>
+            </div>
+            <div class="card-content card-content-padding">
+              Here are some podcasts to listen to during the fall.
+            </div>
           </div>
-          <div class="card-footer">Footer</div>
-        </div>
+        </a>
 
-      </div>
-      <div class="toolbar tabbar tabbar-labels toolbar-bottom">
-        <div class="toolbar-inner">
-          <a href="/podcasts/" class="tab-link">
-            <i class="icon demo-icon-1"></i>
-            <span class="tabbar-label">Podcasts</span>
-          </a>
-          <a href="/movies/" class="tab-link">
-            <i class="icon demo-icon-2"></i>
-            <span class="tabbar-label">Movies</span>
-          </a>
-          <a href="/Books/" class="tab-link">
-            <i class="icon demo-icon-1"></i>
-            <span class="tabbar-label">Books</span>
-          </a>
-          <a href="/Music/" class="tab-link">
-            <i class="icon demo-icon-2"></i>
-            <span class="tabbar-label">Music</span>
-          </a>
-        </div>
+        <a href="/movies/">
+          <div class="card demo-card-header-pic">
+            <div id="movCard" valign="bottom" class="card-header darken-img ">
+              <h2>Movies</h2>
+            </div>
+            <div class="card-content card-content-padding">
+              Some exciting movies to watch with family and friends.
+            </div>
+          </div>
+        </a>
+        </a>
+
+        <a href="/music/">
+          <div class="card demo-card-header-pic">
+            <div id="musicCard" valign="bottom" class="card-header darken-img ">
+              <h2>Music</h2>
+            </div>
+            <div class="card-content card-content-padding">
+              Music to Jam to while reading, taking a walk, or just to dance to.
+            </div>
+          </div>
+        </a>
+
+        <a href="/books/">
+          <div class="card demo-card-header-pic">
+            <div id="bookCard" valign="bottom" class="card-header darken-img ">
+              <h2>Books</h2>
+            </div>
+            <div class="card-content card-content-padding">
+              Exciting readings to explore about the world.
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
