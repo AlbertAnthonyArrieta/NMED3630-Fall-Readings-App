@@ -26,6 +26,10 @@
     height: 120px;
 }
 
+.cat-header {
+    padding-left: 20px;
+}
+
 .darken-img {
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
@@ -57,4 +61,8 @@ a {
 
 .card-color-red {
     background-color: #ff3b30;
+}
+
+.page-content {
+    padding-top: 0;
 }
