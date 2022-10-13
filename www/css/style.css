@@ -35,6 +35,26 @@ a {
     text-decoration: none;
 }
 
+.list ul ul {
+    padding-left: 0;
+}
+
 .card {
     color: white;
+}
+
+.card-color-purple {
+    background-color: #673ab7;
+}
+
+.card-color-green {
+    background-color: #4cd964;
+}
+
+.card-color-yellow {
+    background-color: #ffcc00;
+}
+
+.card-color-red {
+    background-color: #ff3b30;
 }
